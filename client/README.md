@@ -7,3 +7,4 @@ Content of the app:
 - Redux Forms
 - Object-Based Reducers
 - Key Interpolation Syntax
+- lodash

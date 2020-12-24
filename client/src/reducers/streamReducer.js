@@ -1,4 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
+import _ from 'lodash';
+
 import * as actionTypes from '../actions/types';
 
 export default (state = {}, action) => {
@@ -9,6 +11,8 @@ export default (state = {}, action) => {
       return { ...state, [action.payload.id]: action.payload };
     case actionTypes.EDIT_STREAM:
       return { ...state, [action.payload.id]: action.payload };
+    case actionTypes.DELETE_STREAM:
+      return _.omit(state, action.payload);
     default:
       return state;
   }
