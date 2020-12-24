@@ -5,6 +5,8 @@ import * as actionTypes from '../actions/types';
 
 export default (state = {}, action) => {
   switch (action.type) {
+    case actionTypes.FETCH_STREAMS:
+      return { ...state, ..._.mapKeys(action.payload, 'id') };
     case actionTypes.FETCH_STREAM:
       return { ...state, [action.payload.id]: action.payload };
     case actionTypes.CREATE_STREAM:
