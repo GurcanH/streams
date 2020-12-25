@@ -11,4 +11,6 @@ Content of the app:
 - Object-Based Reducers
 - Key Interpolation Syntax
 - lodash (pick, mapKeys, omit)
-- React Portals
+- React Portals (Modal using)
+- stopPropagation
+-
