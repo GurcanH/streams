@@ -13,4 +13,4 @@ Content of the app:
 - lodash (pick, mapKeys, omit)
 - React Portals (Modal using)
 - stopPropagation
--
+- React Fragments
