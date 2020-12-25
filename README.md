@@ -15,5 +15,6 @@ Content of the app:
 - stopPropagation
 - React Fragments
 - RTMP Server
+- OBS Installation
 - FLV JS
 -
