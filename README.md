@@ -1,6 +1,6 @@
 # React - Redux Stream App
 
-Content of the repo:
+Content of the app:
 
 - React Router
 - Google Authentication
@@ -8,3 +8,7 @@ Content of the repo:
 - Virtual API server creating with json-server
 - Axios
 - Redux Thunk
+- Object-Based Reducers
+- Key Interpolation Syntax
+- lodash (pick, mapKeys, omit)
+- React Portals
